@@ -1,0 +1,13 @@
+name = "EarthBalanceModels"
+uuid = "544f2a68-8d8d-4b4c-bf1a-e784b152fecf"
+authors = ["Natan Dominko Kobilica"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.9.3"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
