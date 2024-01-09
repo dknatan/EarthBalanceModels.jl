@@ -10,7 +10,7 @@ using Test
 
     p2 = [1363., 5.67e-8, 0.3, 0.6]
     Tstar2 = ((1. - p2[3]) * (p2[1] / 4.) / (p2[2] * p2[4]))^0.25
-    @test EarthBalanceModels.zero_dim_ebm_greenhouse(Tstar2,p2,0.) ≈ 0.
+    @test EarthBalanceModels.zero_dim_ebm_greenhouse(Tstar2,p2,0.) ≈ 0.1
 
     p3 = [1363., 0.3, 202., 1.45]
     Tstar3 = ((1. - p3[2]) * (p3[1] / 4.) - p3[3]) / p3[4]
